@@ -36,50 +36,6 @@
 	<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 	<![endif]-->
 <!--/HTML_HAEDER-->
-<!--jQuery-->
-<script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/rem.js"></script>
-<script>$(function(){$(".asset-body-inner img").addClass('img-responsive');$(".asset-body-inner img").css('padding','5px');});</script>
-<script>
-$(function() {$('.alpha_btan').mouseover(function(){if($(this).parent().parent().parent().parent().attr("id") == 'navi'){} else {$(this).stop().css({opacity:0.4}).animate({opacity:1},500);}});$('form:submit').mouseover(function(){$(this).stop().css({opacity:0.4}).animate({opacity:1},500);});$('form:image').mouseover(function(){$(this).stop().css({opacity:0.4}).animate({opacity:1},500);});});
-</script>
-<script>
-$(function(){
-var $btn = $('#top-navi');var isHidden = true;$btn.hide();$(window).scroll(function () {if( $(this).scrollTop() > 150 ) {if( isHidden ) {$btn.stop(true,true).fadeIn(1000);isHidden = false;}} else {if( !isHidden ) {$btn.stop(true,true).fadeOut(200);isHidden = true;}}});});
-</script>
-<link rel="stylesheet" href="js/animsition.css">
-<script src="js/animsition.js"></script>
-<script>
-$(document).ready(function() {
-  $(".animsition").animsition({
-    inClass               :   'fade-in',
-    outClass              :   'fade-out',
-    inDuration            :    1500,
-    outDuration           :    800,
-    linkElement           :   '.animsition-link',
-    // e.g. linkElement   :   'a:not([target="_blank"]):not([href^=#])'
-    loading               :    true,
-    loadingParentElement  :   'body',
-    loadingClass          :   'animsition-loading',
-    unSupportCss          : [ 'animation-duration',
-                              '-webkit-animation-duration',
-                              '-o-animation-duration'
-                            ],
-    overlay               :   false,
-    overlayClass          :   'animsition-overlay-slide',
-    overlayParentElement  :   'body'
-  });
-});
-</script>
-<script>
-$(function(){
-	var $height_on = 128;
-	$(".top_menu,#top_topics,.right_img").css("height",$height_on+"px");
-	var $height_on2 = $height_on-120+10;
-	$(".top_menu_inner").css("padding-top",$height_on2+"px");
-	$top_news_h = $height_on+195+15;
-	$("#top_news").css("height",$top_news_h+"px");
-});
 </script>
 <!--/jQuery-->
 <!--Style-->
